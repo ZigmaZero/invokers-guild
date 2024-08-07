@@ -1,6 +1,8 @@
 body {
     background-color: #12141f;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -36,9 +38,68 @@ footer {
     padding: 8px;
     width:100%;
     background-color: #0c1d51;
-    position: fixed;
+    position: sticky;
     bottom: 0;
     font-family: "HYWenhei", "Arial", "Helvetica", sans-serif;
 }
 
 /*Deck Guides stuff uses Bai Jamjuree for the nitty gritty text now :3*/
+
+h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.version {
+    color:rgb(167, 126, 175);
+    font-size:16px;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 48rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    background-color:#0f225b;
+}
+
+.credits {
+    width: 100%;
+    max-width: 48rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    background-color:#0f225b;
+    gap: 5px;
+}
+
+.main-content * {
+    font-family: "Bai_Jamjuree", "Arial", "Helvetica", sans-serif;
+}
+
+.credits * {
+    font-family: "HYWenHei", "Arial", "Helvetica", sans-serif;
+}
+
+.credits h2 {
+    font-weight: normal;
+}
+
+.main-content strong {
+    color: rgb(235, 235, 187);
+}
