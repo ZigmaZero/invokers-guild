@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #12141f;
     margin: 0px;
@@ -43,8 +45,6 @@ footer {
     font-family: "HYWenhei", "Arial", "Helvetica", sans-serif;
 }
 
-/*Deck Guides stuff uses Bai Jamjuree for the nitty gritty text now :3*/
-
 h1 {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -88,11 +88,11 @@ h1 {
     gap: 5px;
 }
 
-.main-content * {
+.guide-content * {
     font-family: "Bai_Jamjuree", "Arial", "Helvetica", sans-serif;
 }
 
-.credits * {
+.credits {
     font-family: "HYWenHei", "Arial", "Helvetica", sans-serif;
 }
 
