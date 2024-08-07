@@ -1,0 +1,125 @@
+
+
+.title {
+    text-align: center;
+    font-size: 2em;
+}
+
+h1 {
+    font-weight:normal;
+    margin-top:30px;
+    margin-bottom: 0px;
+    padding:5px;
+}
+
+h2 {
+    margin-top: 0px;
+    font-weight:normal;
+    font-size: 16px;
+}
+
+body {
+    background-color: #12141f;
+    margin: 0px;
+}
+
+nav {
+    padding: 8px;
+    width:100%;
+    background-color: #0c1d51;
+    position: fixed;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 8px;
+    margin: 0px;
+    font-family: "HYWenhei", "Arial", "Helvetica", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: #183489;
+}
+
+footer {
+    padding: 8px;
+    width:100%;
+    background-color: #0c1d51;
+    position: fixed;
+    bottom: 0;
+    font-family: "HYWenhei", "Arial", "Helvetica", sans-serif;
+}
+
+.main-content {
+    margin: 20px;
+}
+
+#filter {
+    text-align: center;
+}
+
+#filter button.on {
+    background-color:aliceblue;
+    color:hsl(147, 69%, 41%);
+    cursor: pointer;
+}
+
+#filter button.off {
+    background-color: rgb(46, 47, 46);
+    color: red;
+    cursor: pointer;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 45rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.deck {
+    padding: 20px; /* Space inside the border */
+    height: 100px; /* Height of the div */
+    box-sizing: border-box;
+    border: 2px solid #3498db;
+    border-radius: 15px;
+    background-color:#0f225b;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+
+.deck div img {
+    height: 80px;
+}
+
+div.deck > div.desc > div.subtitle {
+    color:#3498db;
+}
+
+.desc {
+    width: 60%;
+}
+
+.guide-name {
+    font-size: 36px;
+}
+
+.version {
+    color:rgb(167, 126, 175);
+    font-size:12px;
+}

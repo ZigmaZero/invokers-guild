@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "HYWenHei";
+    src: url(../zhcn.ttf);
+}
+
+@font-face {
+    font-family: "Bai_Jamjuree";
+    src: url(../Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bai_Jamjuree";
+    src: url(../Bai_Jamjuree/BaiJamjuree-Bold.ttf);
+    font-weight:bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bai_Jamjuree";
+    src: url(../Bai_Jamjuree/BaiJamjuree-BoldItalic.ttf);
+    font-weight:bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bai_Jamjuree";
+    src: url(../Bai_Jamjuree/BaiJamjuree-Italic.ttf);
+    font-weight:normal;
+    font-style: italic;
+}
+
+.hoyo {
+    font-family: "HYWenhei", Arial, Helvetica, sans-serif;
+}
+
+* {
+    color:white;
+}
