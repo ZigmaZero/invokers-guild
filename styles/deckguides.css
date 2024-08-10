@@ -1,5 +1,3 @@
-
-
 body {
     background-color: #12141f;
     margin: 0px;
@@ -88,9 +86,7 @@ h1 {
     gap: 5px;
 }
 
-.guide-content * {
-    font-family: "Bai_Jamjuree", "Arial", "Helvetica", sans-serif;
-}
+.guide-content
 
 .credits {
     font-family: "HYWenHei", "Arial", "Helvetica", sans-serif;
@@ -100,6 +96,34 @@ h1 {
     font-weight: normal;
 }
 
-.main-content strong {
-    color: rgb(235, 235, 187);
+.color-equip {
+    color: #7dbbe3;
+}
+
+.color-support {
+    color: #47c268;
+}
+
+.color-event {
+    color: #e69138;
+}
+
+.color-pyro {
+    color: #ff9999;
+}
+
+.color-electro {
+    color: #ffacff;
+}
+
+.color-hydro {
+    color: #4285f4;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.guide-content * {
+    font-family: "Bai Jamjuree";
 }
